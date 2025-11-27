@@ -1,3 +1,4 @@
+import java.util.Date;
 
 public class Student {
     String firstName;
@@ -28,4 +29,12 @@ public class Student {
     	 return year;
      }
     
+     public Student(String firstName, String lastName, int registration, int grade, int year) {
+    	 this.firstName = firstName;
+    	 this.lastName = lastName;
+    	 this.registration = registration;
+    	 this.grade = grade;
+    	 this.year = year;
+     }//Constructor
+     
 }//Class Student
